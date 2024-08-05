@@ -6,7 +6,6 @@ from decimal import Decimal
 
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
-
 region_name = 'us-east-1'
 
 def lambda_handler(event, context):
